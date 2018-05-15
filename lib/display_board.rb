@@ -24,5 +24,5 @@ end
 # content.length.times do |i|
 #   content[i] = i.to_s
 # end
-# 
+#
 # display_board(content)

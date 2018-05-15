@@ -1,4 +1,4 @@
-$content = Array.new(9, " ")
+
 
 def create_row(x, content)
   pos = (x - 1) * 3

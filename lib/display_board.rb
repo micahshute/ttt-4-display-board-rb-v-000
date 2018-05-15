@@ -21,8 +21,8 @@ def display_board(content)
   puts(create_board(content))
 end
 
-content.length.times do |i|
-  content[i] = i.to_s
-end
-
-display_board(content)
+# content.length.times do |i|
+#   content[i] = i.to_s
+# end
+# 
+# display_board(content)

@@ -1,7 +1,7 @@
 content = Array.new(9, " ")
 
 def create_row(x, content)
-  pos = (x - 1) * 3
+  pos = (x) * 3
   spaceContent(content[pos]) + '|' + spaceContent(content[pos + 1]) + '|' + spaceContent(content[pos + 2]) + "\n"
 end
 

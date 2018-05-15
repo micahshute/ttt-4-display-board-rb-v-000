@@ -22,3 +22,4 @@ def display_board(content)
 end
 
 content[4] = "X"
+display_board(content)

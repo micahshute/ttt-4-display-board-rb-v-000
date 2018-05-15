@@ -1,4 +1,4 @@
-
+content = Array.new(9, " ")
 
 def create_row(x, content)
   pos = (x - 1) * 3
@@ -20,3 +20,5 @@ end
 def display_board(content)
   puts(create_board(content))
 end
+
+content[4] = "X"
